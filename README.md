@@ -15,7 +15,6 @@ npm start
 ```
 
 ---
-
 In this Backend part of BingepLus, routes are build to serve requests from our BingePlus(electron-nuxtjs app):
 
 A)Videos route:
@@ -37,7 +36,7 @@ b)Video Json data
 
 ---------------------------
 
-Process flow:
+##Process flow:
 
 Once the user connects to backend (makes a request) from bingeplus App(frontend electron-nuxtjs app):
 -A Socket connection is made ,also updating the map with ip and socket id
@@ -53,3 +52,12 @@ If active users is there,Desktop app will fetch data from other active users vie
 When the user shuts the app or closes the show,
 -the map gets updated with ip and socket id
 -the active user list of particular movie changes.
+
+
+## Other Links
+
+Binge Plus SocketIO and NodeJs(Express) server:
+https://github.com/underthehooditsme/BingePlus_backend
+
+BingePlus-Streaming-Backend-Wrapper:
+https://github.com/coolpulkit99/BingePlus-Streaming-Backend-Wrapper
