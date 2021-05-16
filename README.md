@@ -56,8 +56,8 @@ When the user shuts the app or closes the show,
 
 ## Other Links
 
-Binge Plus SocketIO and NodeJs(Express) server:
-https://github.com/underthehooditsme/BingePlus_backend
+Binge Plus Electron UI: 
+https://github.com/underthehooditsme/Bingeplus
 
 BingePlus-Streaming-Backend-Wrapper:
 https://github.com/coolpulkit99/BingePlus-Streaming-Backend-Wrapper
