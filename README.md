@@ -3,7 +3,10 @@
 > Binge+ is a semi-decentralized torrent like streaming network which uses Pravega streams as it's streaming engine. It distributes server load by using peer2peer streaming and provides better latencies by using peers that exist closeby and act as source for stream data.
 It makes use of Pravega segments and in order guarantee to make sure the data received is correct and in an event of disconnection from peer streaming can resume from other peer or server from the point where streaming stopped.
 
-#### Build Setup
+## Solution Overview
+The solution in this repo allows testing the Pravega multi-client streaming where each client has their own standalone Pravega instance hosted. In this project,we demonstrate stream daisy-chaining so that P2P streaming connections can be forged and demonstrated.
+
+## Build Setup
 
 ``` bash
 # install dependencies
