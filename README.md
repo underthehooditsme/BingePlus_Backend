@@ -14,7 +14,7 @@ npm install
 
 # serve app with hot reload
 npm start
-
+```
 ## API crux
 In this Backend part of BingepLus, routes are build to serve requests from our BingePlus(electron-nuxtjs app):
 
@@ -38,7 +38,7 @@ b)Video Json data
 
 ---
 
-##Process flow:
+## Process flow:
 
 Once the user connects to backend (makes a request) from bingeplus App(frontend electron-nuxtjs app):
 -A Socket connection is made ,also updating the map with ip and socket id
