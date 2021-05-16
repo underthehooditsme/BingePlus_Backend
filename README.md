@@ -18,20 +18,24 @@ npm start
 In this Backend part of BingepLus, routes are build to serve requests from our BingePlus(electron-nuxtjs app):
 
 A)Videos route:
- 	To get a list of videos and their data.
+- To get a list of videos and their data.
+ 
 B)One video route:
-	A route to fetch only one video from our list of videos.
+- A route to fetch only one video from our list of videos.
 C)Streaming route:
-	To stream the videos.
+- To stream the videos.
 D)Captions route 
-	To add captions to the videos we are streaming.
+- To add captions to the videos we are streaming.
 
-Apart from video list it will serve the 
-Regularly updated JSON containing 
+Apart from video list it will serve the regularly updated JSON containing 
+
 a)IP and socket id map
+
 b)Video Json data
-	having list of active ip-address viewing the current show/movie.
+-having list of active ip-address viewing the current show/movie.
+
 ---------------------------
+
 Process flow:
 
 Once the user connects to backend (makes a request) from bingeplus App(frontend electron-nuxtjs app):
