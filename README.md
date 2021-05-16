@@ -34,9 +34,7 @@ a)IP and socket id map
 
 b)Video Json data
 -having list of active ip-address viewing the current show/movie.
-```
 
----
 
 ## Process flow:
 
