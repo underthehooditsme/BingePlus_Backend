@@ -15,9 +15,7 @@ npm install
 # serve app with hot reload
 npm start
 
-```
-
----
+## API crux
 In this Backend part of BingepLus, routes are build to serve requests from our BingePlus(electron-nuxtjs app):
 
 A)Videos route:
