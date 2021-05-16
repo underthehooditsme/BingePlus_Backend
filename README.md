@@ -16,17 +16,23 @@ npm install
 npm start
 ```
 ## API crux
+This node app is deployed in Heroku with the endpoint:
+https://bingeplus.herokuapp.com
+
 In this Backend part of BingepLus, routes are build to serve requests from our BingePlus(electron-nuxtjs app):
 
-A)Videos route:
-- To get a list of videos and their data.
+A)Videos route: (/videos)
+- Returns an array of video mockup data that will be used to populate the list of videos on the Home page in our electron app.
  
-B)One video route:
-- A route to fetch only one video from our list of videos.
-C)Streaming route:
-- To stream the videos.
-D)Captions route 
-- To add captions to the videos we are streaming.
+B)One video route: (/video/:id/data)
+- Returns metadata for a single video,used by app
+
+C)Streaming route: (/video/:id)
+- Streams a video with a given ID.
+
+D)Captions route: (/video/:id/caption)
+- Returns captions for the videos we are streaming.
+
 
 Apart from video list it will serve the regularly updated JSON containing 
 
